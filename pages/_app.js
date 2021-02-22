@@ -1,19 +1,18 @@
-import React from 'react'
-import '../styles/styles.css'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import '../styles/styles.css';
 
 const App = ({ Component, pageProps }) => {
     return (
         <div>
             <Header />
-            <div className='min-h-screen container mx-auto'>
-                <Component {...pageProps} />
+            <div className = 'min-h-screen container mx-auto'>
+                <Component {...pageProps}/>
             </div>
-            <Footer />            
-        </div>
-    )
-    
+            <Footer />      
+        </div>    
+    );
 }
 
-export default App
+export default  App;
